@@ -113,3 +113,23 @@ docker run -d -p 8000:8000 \
 └── README.md           # This file
 ```
 
+## Publish to GitHub
+
+1. **Create a new repository** on GitHub: go to [github.com/new](https://github.com/new), set the name (e.g. `mPSK`), leave "Initialize with README" **unchecked**, then Create repository.
+
+2. **Add your GitHub remote and push** (replace `YOUR_USERNAME` and `YOUR_REPO` with your GitHub username and repo name):
+
+   ```bash
+   git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO.git
+   git push -u origin main
+   ```
+
+3. **(Optional)** Set your git identity for this repo, then amend the initial commit:
+
+   ```bash
+   git config user.name "Your Name"
+   git config user.email "your@email.com"
+   git commit --amend --reset-author --no-edit
+   git push --force-with-lease
+   ```
+
