@@ -1,6 +1,6 @@
-# mPSK Integration Web Application
+# mPSK Integration Web Application 
 
-FastAPI web application for managing mPSK/PSK accounts across Aruba Central and Juniper Mist.
+Simple web application for managing mPSK accounts across Aruba Central and Juniper Mist.
 
 ## Features
 
