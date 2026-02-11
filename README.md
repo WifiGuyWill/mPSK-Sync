@@ -1,4 +1,4 @@
-# mPSK Integration Web Application 
+# Unified mPSK Sync Tool for Aruba Central and Juniper Mist
 
 Simple web application for managing mPSK accounts across Aruba Central and Juniper Mist.
 
