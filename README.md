@@ -20,6 +20,8 @@ The app takes the account email you enter and syncs the corresponding mPSK with 
 2. **If it exists** – Retrieve the mPSK passphrase and create or update the PSK in Juniper Mist.
 3. **If it doesn’t exist** – Create the account in Aruba Central, get the generated mPSK passphrase, then create the PSK in Juniper Mist.
 
+![mPSK application UI](docs/mpsk-app-ui.png)
+
 ## Setup
 
 ### Environment Variables
